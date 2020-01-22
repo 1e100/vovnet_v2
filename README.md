@@ -1,8 +1,13 @@
 # VOVNet
 
-This is a reasonably clean implementation of a classifier using VOVNet.
+This is a reasonably clean implementation of a classifier using VOVNet
+(https://arxiv.org/abs/1904.09730). A very simple architecture which,
+nevertheless produces very good accuracy, and is especially useful for object
+detection applications.
 
-A VoVNet checkpoint with top1 of 77.86% is also included. Higher accuracies should be possible, this was one of the very first attempts to train this. Training was done with SGD, EMA and soft CE. 
+A VoVNet checkpoint with top1 of 77.86% is also included. Higher accuracies
+should be possible, this was one of the very first attempts to train this.
+Training was done with SGD, EMA and soft CE. 
 
 Detailed parameters:
 ```python3

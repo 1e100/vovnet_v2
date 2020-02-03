@@ -8,7 +8,7 @@ detection applications.
 The following checkpoints are included:
  - VoVNet19, prec1=72.011, prec5=90.716
  - VoVNet39, TBD
- - VoVNet57, TBD
+ - VoVNet57, prec1=79.63, prec5=94.68
 
 Higher accuracies should be possible, this was one of the very first attempts
 to train this.  Training was done with SGD, EMA and soft CE. 
@@ -113,3 +113,5 @@ CONFIGS = {
     },
 }
 ```
+After each of these runs I recommend another run, also with EMA, but at 1/50th
+the max learning rate (or so), to take up the slack on accuracy.

@@ -28,7 +28,7 @@ CONFIGS = {
         "scheduler": "cosine",
         "scheduler_kwargs": {
             "num_cycles": 1,
-            "peak_lr": 0.3,
+            "peak_lr": 3.0,
             "min_lr": 1e-7,
             "total_lr_decay": 0.1,
             "initial_warmup_step_fraction": 0.0,

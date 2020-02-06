@@ -7,7 +7,7 @@ detection applications.
 
 The following checkpoints are included:
  - VoVNet19, prec1=72.011, prec5=90.716
- - VoVNet27, TBD
+ - VoVNet27, prec1=73.070, prec5=91.580
  - VoVNet39, prec1=78.817, prec5=94.265
  - VoVNet57, prec1=79.63, prec5=94.68
 

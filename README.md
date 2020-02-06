@@ -12,7 +12,7 @@ The following checkpoints are included:
  - VoVNet57, prec1=79.63, prec5=94.68
 
 Higher accuracies should be possible, this was one of the very first attempts
-to train this.  Training was done with SGD, EMA and soft CE. 
+to train this.  Training was done with SGD, EMA and smooth CE. 
 
 Detailed parameters:
 ```python3

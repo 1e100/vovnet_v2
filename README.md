@@ -5,6 +5,9 @@ This is a reasonably clean implementation of a classifier using VOVNet
 nevertheless produces very good accuracy, and is especially useful for object
 detection applications.
 
+**NOTE**: you must have [Git LFS](https://git-lfs.github.com/) installed in
+order to download checkpoints using `git clone`.
+
 The following checkpoints are included:
  - VoVNet19, prec1=72.011, prec5=90.716
  - VoVNet27, prec1=73.070, prec5=91.580

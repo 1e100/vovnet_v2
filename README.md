@@ -5,14 +5,11 @@ This is a reasonably clean implementation of a classifier using VOVNet
 nevertheless produces very good accuracy, and is especially useful for object
 detection applications.
 
-**NOTE**: you must have [Git LFS](https://git-lfs.github.com/) installed in
-order to download checkpoints using `git clone`.
-
-The following checkpoints are included:
- - VoVNet19, prec1=72.011, prec5=90.716
- - VoVNet27, prec1=73.070, prec5=91.580
- - VoVNet39, prec1=78.817, prec5=94.265
- - VoVNet57, prec1=79.63, prec5=94.68
+The following ImageNet checkpoints are included:
+ - [VoVNet19](https://f002.backblazeb2.com/file/1e100-public/vovnet19-72.03-top1.pt), prec1=72.011, prec5=90.716
+ - [VoVNet27](https://f002.backblazeb2.com/file/1e100-public/vovnet27-73.07-top1.pt), prec1=73.070, prec5=91.580
+ - [VoVNet39](https://f002.backblazeb2.com/file/1e100-public/vovnet39-78.82-top1.pt), prec1=78.817, prec5=94.265
+ - [VoVNet57](https://f002.backblazeb2.com/file/1e100-public/vovnet57-79.63-top1.pt), prec1=79.63, prec5=94.68
 
 Higher accuracies should be possible, this was one of the very first attempts
 to train this.  Training was done with SGD, EMA and smooth CE. 
